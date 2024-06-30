@@ -11,7 +11,7 @@ body {
   justify-content: center;
   background-color: #160f3e;
   color: #e4a673;
-  transition: background-color 0.5s, color 0.5s; /* Add transition */
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .text,
@@ -24,7 +24,7 @@ a {
   font-family: "dirtyline";
   font-optical-sizing: auto;
   font-size: 64px;
-  transition: color 0.5s; /* Add transition */
+  transition: color 0.5s; 
 }
 
 .at {
