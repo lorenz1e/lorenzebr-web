@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #160f3e;
+  color: #e4a673;
+  transition: background-color 0.5s, color 0.5s; /* Add transition */
+}
+
+.text,
+a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: #e4a673;
+  text-decoration: none;
+  font-family: "dirtyline";
+  font-optical-sizing: auto;
+  font-size: 64px;
+  transition: color 0.5s; /* Add transition */
+}
+
+.at {
+  font-size: 50px;
+  margin-right: 0.5px;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.light-mode .text,
+.light-mode a {
+  color: black;
+}
